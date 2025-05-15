@@ -1,0 +1,15 @@
+<aiml>
+
+<!-- complete this  category using condition tages in the template-->
+
+<category>
+ <pattern>I WANT MORE HELP</pattern>
+  <template>
+    We are sorry that you are not satisfied. 
+    Please use the email address below to contact the right team who can give you more help.
+       <!-- add add your condition code here -->
+   </template>
+</category>
+
+
+</aiml>

@@ -1,0 +1,15 @@
+<aiml>
+<category>
+  <pattern> MY ORDER NUMBER IS *</pattern>
+  <template>
+
+     <random>
+        <li><set name="status">Your order has been dispatched and is in transit</set><think><set name="email">transit.enquiries@acme.com</set></li>
+        <li><set name="status">Your order has been marked as delivered.</set><think><set name="email">missing.delivery@acme.com</set></li>
+        <li><set name="status">Your order number is not recognised.</set></li>
+        <li><set name="status">We apologise. One or more items in your order were out of stock. We will dispatch as soon as we receive new supplies.</set></li>
+    </random>
+ 
+  </template>
+
+</aiml>
